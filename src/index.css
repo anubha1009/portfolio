@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: "Quicksand", sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+canvas {
+  border-radius: 0.5rem;
+}
+
+/* Light mode */
+body:not(.dark)::-webkit-scrollbar {
+  width: 12px;
+}
+
+body:not(.dark)::-webkit-scrollbar-track {
+  background: #e3afbc;
+}
+
+body:not(.dark)::-webkit-scrollbar-thumb {
+  background: #5d001e;
+  border-radius: 20px;
+}
+
+/* Dark mode */
+body.dark::-webkit-scrollbar {
+  width: 12px;
+}
+
+body.dark::-webkit-scrollbar-track {
+  background: #5d001e;
+}
+
+body.dark::-webkit-scrollbar-thumb {
+  background: #e3afbc;
+  border-radius: 20px;
+}
+
+.neumorphism {
+  border-radius: 50px;
+background: #e3afbc;
+box-shadow:  20px 20px 60px #c195a0,
+             -20px -20px 60px #ffc9d8;
+}
+
+.neumorphism-dark {
+  border-radius: 50px;
+  background: #480017;
+  box-shadow:  20px 20px 60px #3d0014,
+               -20px -20px 60px #53001a;
+}
