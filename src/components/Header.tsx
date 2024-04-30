@@ -12,7 +12,7 @@ function Header() {
       <div className="flex flex-grow justify-start text-start">
         <h1 className="text-4xl font-bold content-end">Anubha Vishwakarma</h1>
         <h2 className="text-2xl italic content-end ml-3">Software Developer</h2>
-        <a href="/Resume Anubha Vishwakarma.pdf" target="_blank">
+        <a href="/Resume Anubha Vishwakarma May.pdf" target="_blank">
           <div className="flex bg-c-dark-pink dark:bg-c-light-pink text-c-light-pink dark:text-c-dark-pink p-2 rounded-full ms-5 content-center cursor-pointer">
             Printable Resume
           </div>

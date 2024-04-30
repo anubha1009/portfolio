@@ -32,6 +32,25 @@ export const education = [
 
 export const workExperience = [
   {
+    title: "Software Engineer II",
+    company: "Touchnet Information Systems Inc. (Global Payments Company)",
+    location: "Kansas City, MO, United States",
+    start: "January 2024",
+    end: "Present",
+    description: [
+      "Managed database migrations using Liquibase, leveraging ORM (Object-Relational Mapping) techniques to ensure seamless schema updates and data migrations within the application.",
+      "Developed Java APIs with a focus on PCI compliance, implementing security best practices and industry standards to ensure the secure processing and storage of sensitive payment card data.",
+      "Led the migration from Create React App to Vite, optimizing performance and reducing vulnerabilities by implementing Vite plugins and Vitest for comprehensive testing. Successfully removed deprecated dependencies and addressed Nexis IQ vulnerabilities.",
+      "Developed and maintained React component packages for npm using Vite and Rollup, ensuring ongoing updates and proactively addressing security vulnerabilities to enhance application integrity.",
+      "Designed and developed RESTful APIs within a microservices architecture using Java, enabling application enhancements and scalability through modular, service-oriented design.",
+      "Implemented version control workflows using GitOps methodologies and utilized tools such as Argo CD to orchestrate seamless deployments of cloud-based applications, ensuring efficient synchronization and continuous delivery of updated versions.",
+      "Conducted comprehensive accessibility audits on user interfaces using Axe tools, ensuring compliance with WCAG standards and delivering inclusive user experiences.",
+    ],
+    awards: [
+      
+    ],
+  },
+  {
     title: "Senior Software Engineer",
     company: "Hexagon Capability Center India Pvt. Ltd.",
     location: "Hyderabad, India",
@@ -112,6 +131,7 @@ export const skills = [
       { name: "Angular", rating: 4 },
       { name: "AngularJS", rating: 3 },
       { name: "React", rating: 5 },
+      {name: "Vite", rating: 5}
     ],
   },
   {
